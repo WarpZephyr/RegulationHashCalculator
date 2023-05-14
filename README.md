@@ -6,7 +6,7 @@ You do not need to use the correct raw format program for regulation.bin.
 This program will handle that.
 All regulation archives inside however, you will need to correct that.  
 
-Get that from here:
+Get that from here:  
 [AC4RawFormatCorrector][0]
 
 # Technical Details
