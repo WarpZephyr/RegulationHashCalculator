@@ -1,10 +1,13 @@
 # RegulationHashCalculator
 Use this program to recalculate Armored Core 4's regulation.bin file's hash.  
 
-Simply drag and drop regulation.bin into the exe.  
+Simply drag and drop regulation.bin onto the exe.  
 You do not need to use the correct raw format program for regulation.bin.  
 This program will handle that.
-All regulation files inside however, you will need to correct that.  
+All regulation archives inside however, you will need to correct that.  
+
+Get that from here:
+[AC4RawFormatCorrector][0]
 
 # Technical Details
 Armored Core 4 has a file entry in its regulation.bin BND3 file called md5.fmg.  
@@ -23,4 +26,6 @@ The md5 hash is written in Little Endian order as far as I can tell.
 The rest of the file, including the length included with the hash, is in Big Endian.
 
 The reason raw format needs to be corrected is because  
-Figuring out what byte order it should be written in is problematic for SoulsFormats and Yabber.
+Figuring out what byte order it should be written in is problematic for SoulsFormats and Yabber.  
+
+[0]: https://github.com/WarpZephyr/AC4RawFormatCorrector/
